@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --zinc-100: #f4f4f5;
+    --zinc-200: #e4e4e7;
+    --zinc-300: #d4d4d8;
+    --zinc-500: #71717a;
+    --zinc-800: #27272a;
+
+    --rose-500: #f43f5e;
+    --rose-600: #e11d48;
+    --emerald-500: #10b981;
+    --amber-500: #f59e0b;
+}
+
+@media(max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+
+body {
+    background-color: var(--zinc-100);
+}
+
+body.ReactModal__Body--open {
+    height: 100%;
+    overflow: hidden;
+  }
+
+body, input, button {
+    font-family: 'Poppins', sans-serif;
+}
